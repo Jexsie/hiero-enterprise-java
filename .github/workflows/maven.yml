@@ -24,7 +24,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Environmnet
-      - uses: Jexsie/hiero-solo-action/.github/actions/setup-env@57972328c1e4571bf1747ff322d9ae0946c7a5c4
+        uses: Jexsie/hiero-solo-action/.github/actions/setup-env@57972328c1e4571bf1747ff322d9ae0946c7a5c4
+        
       - name: Set up JDK 21
         uses: actions/setup-java@v4
         with:
