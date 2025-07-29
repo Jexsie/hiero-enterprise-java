@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Environmnet
-        uses: Jexsie/hiero-solo-action/.github/actions/setup-env@57972328c1e4571bf1747ff322d9ae0946c7a5c4
+        uses: Jexsie/hiero-solo-action/.github/actions/setup-env@cb227d08063ea073910b93b6b3a549d767c1e458
         
       - name: Set up JDK 21
         uses: actions/setup-java@v4
@@ -35,7 +35,7 @@ jobs:
 
       - name: Prepare Hiero Solo
         id: solo
-        uses: Jexsie/hiero-solo-action@57972328c1e4571bf1747ff322d9ae0946c7a5c4 # v0.10
+        uses: Jexsie/hiero-solo-action@cb227d08063ea073910b93b6b3a549d767c1e458 # v0.10
         with:
           installMirrorNode: true
           hieroVersion: v0.63.7
